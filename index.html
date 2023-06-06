@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
-    <title>first scss</title>
-    <link rel="stylesheet" href="src/sass/main.scss" />
-  </head>
-  <body>
-    <nav>
-      <div>
-        <img src="src/images/logo.svg" alt="" />
-        <ul>
-          <li>Collectios</li>
-          <li>Men</li>
-          <li>Women</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="sass/style.scss">
+  <title>E-commerce product page</title>
+
+
+<body>
+
+  <nav>
+    <div>
+      <img src="src/images/logo.svg" alt="" />
       <ul>
-        <li><img src="src/images/icon-cart.svg" alt="" /></li>
-        <li><img src="src/images/image-avatar.png" alt="" /></li>
+        <li>Collectios</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
-    </nav>
-    <div class="container">Template Page</div>
-    <main>
+    </div>
+
+    <ul>
+      <li><img src="src/images/icon-cart.svg" alt="" /></li>
+      <li><img src="src/images/image-avatar.png" alt="" /></li>
+    </ul>
+  </nav>
+  <div class="container">Template Page</div>
+  <main>
+    <div class="row">
       <div>
         <img src="src/images/image-product-1.jpg" alt="" />
         <div>
-          <img
-            class="img-min activate"
-            src="src/images/image-product-1.jpg"
-            alt=""
-          />
+          <img class="img-min activate" src="src/images/image-product-1.jpg" alt="" />
           <img class="img-min" src="src/images/image-product-2.jpg" alt="" />
           <img class="img-min" src="src/images/image-product-3.jpg" alt="" />
           <img class="img-min" src="src/images/image-product-4.jpg" alt="" />
         </div>
       </div>
-    </main>
+      <div>
+        <h4>
+          Sneaker Company
+        </h4>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div>
 
-    <script src="src/js/index.js"></script>
-  </body>
+          <h3>$125.00</h3>
+          <p class="sale">50%</p>
+        </div>
+        <p>$250.00</p>
+        <div>
+          <img src="/src/images/icon-minus.svg" alt="">
+          <p>0</p>
+          <img src="/src/images/icon-plus.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+</body>
+
 </html>
